@@ -1,14 +1,19 @@
+:root {
+  --main-bg-color: #2D2424;
+}
+body{
+  background-color: #2D2424;
+ 
+}
 .face_logo{
       width: 3vw;
   }
 #black_jazz_logo{
   width: 18vw;
 }
-#collapsibleNavbar{
+/* #collapsibleNavbar{
   /* transition: all 3s; */
-}
-#collapsibleNavbar:hover{
+
+/* #collapsibleNavbar:hover{
   transition: all 2s;
-}
-
-
+} */ 

@@ -17,3 +17,12 @@
     width: 3vw;
 }
 }
+:root {
+    --main-bg-color: #2D2424;
+  }
+.face_logo{
+    width: 3vw;
+}
+#black_jazz_logo{
+    width: 18vw;
+  }
