@@ -1,8 +1,16 @@
+:root {
+    --main-bg-color: #2D2424;
+  }
+  body{
+    background-color: #2D2424;
+  }
 @media screen and (max-width:600px) {
     
-
+#black_jazz_logo{
+        width: 20vw;
+      }
 .face_logo{
-    width: 3vw;
+    width: 8vw;
 }
 
 .like{
@@ -16,13 +24,13 @@
 .like{
     width: 3vw;
 }
-}
-:root {
-    --main-bg-color: #2D2424;
-  }
 .face_logo{
-    width: 3vw;
+    width: 2vw;
 }
 #black_jazz_logo{
-    width: 18vw;
+    width: 5vw;
   }
+.container{
+    
+}
+}
