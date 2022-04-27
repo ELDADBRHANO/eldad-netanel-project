@@ -1,3 +1,25 @@
+:root {
+    --main-bg-color: #2D2424;
+  }
+  body{
+    background-color: #2D2424;
+  }
 .face_logo{
     width: 3vw;
 }
+#black_jazz_logo{
+    width: 18vw;
+  }
+  #eldad_img{
+       width: 55vw;
+       height: 60vh;
+  }
+
+  .span-head{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+ p{
+     color: white;
+ }

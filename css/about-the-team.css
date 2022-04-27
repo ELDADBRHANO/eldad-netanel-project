@@ -1,3 +1,25 @@
+.container{
+    width: 80vw;
+    grid-template-areas:
+     'header header header '
+     'main main main'
+     'main main main'
+     'footer footer footer'
+}
+:root {
+        --main-bg-color: #2D2424;
+      }
+body{
+    
+    background-color: var(--main-bg-color);
+}
 .face_logo{
     width: 3vw;
 }
+#black_jazz_logo{
+    width: 18vw;
+
+  }
+ #footer{
+     grid-area: footer;
+ }
