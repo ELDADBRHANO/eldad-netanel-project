@@ -1,6 +1,14 @@
 .face_logo{
       width: 3vw;
   }
-
+#black_jazz_logo{
+  width: 18vw;
+}
+#collapsibleNavbar{
+  /* transition: all 3s; */
+}
+#collapsibleNavbar:hover{
+  transition: all 2s;
+}
 
 
