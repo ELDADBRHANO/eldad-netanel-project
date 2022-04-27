@@ -1,3 +1,19 @@
+@media screen and (max-width:600px) {
+    
+
 .face_logo{
     width: 3vw;
+}
+
+.like{
+    width: 10vw;
+}
+}
+@media screen and (min-width:600px) {
+    .face_logo{
+        width: 3vw;
+    }
+.like{
+    width: 3vw;
+}
 }
