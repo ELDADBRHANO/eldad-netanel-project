@@ -1,22 +1,36 @@
 :root {
         --main-bg-color: #2D2424;
       }
-body{
-    
-    background-color: var(--main-bg-color);
-}
-.face_logo{
-    width: 3vw;
-}
-#black_jazz_logo{
-    width: 5vw;
-
-
-  }
- #footer{
+      .face_logo{
+          width: 3vw;
+        }
+        #black_jazz_logo{
+            width: 5vw;
+            
+            
+        }
+        #footer{
      grid-area: footer;
- }
- .head-line{
-    margin-top: 13vh;
+    }
+    .head-line{
+        margin-top: 13vh;
     
+  }
+  @media screen and (max-width: 578px){
+
+      body{
+             background-image: url(/imges/patifon-1.png.jpg); 
+             background-size: 100vw;
+             /* background-attachment: fixed;  */
+             background-color: var(--main-bg-color);
+             background-size: cover;
+         }
+  }
+
+  @media screen and (min-width:578px){
+    body{
+        background-image: url(/imges/patifon-1.png.jpg); 
+        background-size: cover;
+        background-attachment: fixed; 
+    } 
   }
