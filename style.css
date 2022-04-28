@@ -3,6 +3,11 @@
 }
 body{
   background-color: #2D2424;
+  background-image: url(/imges/home_page.jpg);
+  background-size: cover;
+  background-attachment:fixed ;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .face_logo{
       width: 2vw;
@@ -10,40 +15,8 @@ body{
 #black_jazz_logo{
   width: 5vw;
 }
-.head-line{
-  margin-top: 13vh;
-  
-}
-
-.omer{
+#shows{
   width: 100vw;
   height: 30vh;
-  animation-name: omerAnimation;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  background-size: cover;
-  
-  
-}
-@keyframes omerAnimation{
-  0%{
-    height:30vh;
-    width:100vw;
-    background-image: url('./imges/Burna-Boy-3.png');
-  }
-  25%{
-    height: 30vh;
-    width: 100vw;
-    background-image: url('/imges/chris\ brown-2.png');
-  }
-  50%{
-    height: 30vh;
-    width: 100vw;
-    background-image: url('/imges/dj\ play-1.png');
-  }
-  100%{
-    height: 30vh;
-    width: 100vw;
-    background-image: url('');
-  }
+  filter: opacity(70%);
 }
