@@ -4,18 +4,23 @@
   body{
     background-color: #2D2424;
   }
+  .head-line{
+  margin-top: 13vh;
+  
+}
 @media screen and (max-width:600px) {
     
 #black_jazz_logo{
         width: 20vw;
       }
 .face_logo{
-    width: 8vw;
+    width: 7vw;
 }
 
 .like{
     width: 10vw;
 }
+
 }
 @media screen and (min-width:600px) {
     .face_logo{
@@ -30,7 +35,4 @@
 #black_jazz_logo{
     width: 5vw;
   }
-.container{
-    
-}
 }
