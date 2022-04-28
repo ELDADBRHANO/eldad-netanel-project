@@ -3,27 +3,42 @@
   }
   body{
     background-color: #2D2424;
+    background-image:url(/imges/bg_aboutuss.jpg);
+    background-attachment: fixed;
   }
 .face_logo{
     width: 3vw;
 }
 #black_jazz_logo{
-    width: 10vw;
-    z-index: 1;
+    width: 5vw;
   }
-  #eldad_img{
-       width: 55vw;
-       height: 60vh;
-  }
-
+  
   .span-head{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
- p{
+  p{
      color: white;
- }
- .head-line{
-  margin-top: 13vh;
+    }
+    .head-line{
+      margin-top: 13vh;
 }
+
+      @media screen and (max-width:578px) {
+    
+        #eldad_img{
+             width: 70vw;
+             height: 60vh;
+        }
+      }
+       
+
+      @media screen and (min-width:578px) {
+    
+        #eldad_img{
+             width: 35vw;
+             height: 70vh;
+        }
+      }
+       
