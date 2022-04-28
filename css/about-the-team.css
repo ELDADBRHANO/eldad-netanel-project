@@ -1,6 +1,6 @@
-:root {
+/* :root {
         --main-bg-color: #2D2424;
-      }
+      } */
       .face_logo{
           width: 3vw;
         }
@@ -19,9 +19,9 @@
   @media screen and (max-width: 578px){
 
       body{
-             background-image: url(../imges/patifon-1.png.jpg); 
+             background-image: url(../imges/bg_aboutuss.jpg); 
              background-size: 100vw;
-             /* background-attachment: fixed;  */
+             background-attachment: fixed; 
              background-color: var(--main-bg-color);
              background-size: cover;
          }

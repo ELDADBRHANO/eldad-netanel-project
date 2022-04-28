@@ -26,7 +26,6 @@
 }
 
       @media screen and (max-width:578px) {
-    
         #eldad_img{
              width: 70vw;
              height: 60vh;
@@ -35,7 +34,6 @@
        
 
       @media screen and (min-width:578px) {
-    
         #eldad_img{
              width: 35vw;
              height: 70vh;
