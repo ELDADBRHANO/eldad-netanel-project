@@ -3,6 +3,7 @@
   }
   body{
     background-color: #2D2424;
+  
   }
 .face_logo{
     width: 3vw;
@@ -10,3 +11,19 @@
 #black_jazz_logo{
     width: 5vw;
   }
+.container{
+  background-image: url(/imges/background_contact.jpg);
+  background-size: cover;
+  background-color: aliceblue;
+  height: 100vh;
+}
+.effect-1{
+  width: 100%;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+.btn1{
+  border-radius: 3px;
+  background-color: #2D2424;
+}
