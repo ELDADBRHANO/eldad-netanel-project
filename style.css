@@ -3,6 +3,11 @@
 }
 body{
   background-color: #2D2424;
+  background-image: url(/imges/home_page.jpg);
+  background-size: cover;
+  background-attachment:fixed ;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .face_logo{
       width: 2vw;
@@ -10,9 +15,8 @@ body{
 #black_jazz_logo{
   width: 5vw;
 }
-/* #collapsibleNavbar{
-  /* transition: all 3s; */
-
-/* #collapsibleNavbar:hover{
-  transition: all 2s;
-} */ 
+#shows{
+  width: 100vw;
+  height: 30vh;
+  filter: opacity(70%);
+}
