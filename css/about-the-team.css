@@ -19,7 +19,7 @@
   @media screen and (max-width: 578px){
 
       body{
-             background-image: url(/imges/patifon-1.png.jpg); 
+             background-image: url(../imges/patifon-1.png.jpg); 
              background-size: 100vw;
              /* background-attachment: fixed;  */
              background-color: var(--main-bg-color);
@@ -29,7 +29,7 @@
 
   @media screen and (min-width:578px){
     body{
-        background-image: url(/imges/patifon-1.png.jpg); 
+        background-image: url(../imges/patifon-1.png.jpg); 
         background-size: cover;
         background-attachment: fixed; 
     } 

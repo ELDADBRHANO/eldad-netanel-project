@@ -3,7 +3,7 @@
 }
 body{
   background-color: #2D2424;
-  background-image: url(/imges/home_page.jpg);
+  background-image: url(imges/home_page.jpg);
   background-size: cover;
   background-attachment:fixed ;
   background-repeat: no-repeat;
