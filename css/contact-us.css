@@ -5,12 +5,7 @@
     background-color: #2D2424;
   
   }
-.face_logo{
-    width: 3vw;
-}
-#black_jazz_logo{
-    width: 5vw;
-  }
+
 .container{
   background-image: url(../imges/background_contact.jpg);
   background-size: cover;
@@ -27,3 +22,31 @@
   border-radius: 3px;
   background-color: #2D2424;
 }
+@media screen and (max-width:600px) {
+    
+  #black_jazz_logo{
+          width: 20vw;
+        }
+  .face_logo{
+      width: 7vw;
+  }
+  
+  .like{
+      width: 10vw;
+  }
+  
+  }
+  @media screen and (min-width:600px) {
+      .face_logo{
+          width: 3vw;
+      }
+  .like{
+      width: 3vw;
+  }
+  .face_logo{
+      width: 2vw;
+  }
+  #black_jazz_logo{
+      width: 5vw;
+    }
+  }

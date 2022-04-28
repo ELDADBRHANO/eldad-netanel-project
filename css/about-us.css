@@ -25,18 +25,45 @@
       margin-top: 13vh;
 }
 
-      @media screen and (max-width:578px) {
-        #eldad_img{
-             width: 70vw;
-             height: 60vh;
-        }
-      }
+
+
+@media screen and (max-width:600px) {
+#eldad_img{
+width: 70vw;
+height: 60vh;
+}
+#black_jazz_logo{
+  width: 20vw;
+}
+.face_logo{
+  width: 7vw;
+}
+.like{
+  width: 10vw;
+}
+}
        
 
-      @media screen and (min-width:578px) {
-        #eldad_img{
-             width: 35vw;
-             height: 70vh;
-        }
-      }
+@media screen and (min-width:600px) {
+#eldad_img{
+  width: 35vw;
+  height: 70vh;
+}
+.face_logo{
+  width: 3vw;
+}
+.like{
+  width: 3vw;
+}
+.face_logo{
+  width: 2vw;
+}
+#black_jazz_logo{
+  width: 5vw;
+}
+}
        
+    
+
+
+

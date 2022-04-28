@@ -16,21 +16,47 @@
         margin-top: 13vh;
     
   }
-  @media screen and (max-width: 578px){
+  @media screen and (max-width: 600px){
 
-      body{
-             background-image: url(../imges/bg_aboutuss.jpg); 
-             background-size: 100vw;
-             background-attachment: fixed; 
-             background-color: var(--main-bg-color);
-             background-size: cover;
-         }
+    body{
+      background-image: url(../imges/bg_aboutuss.jpg); 
+      background-size: 100vw;
+      background-attachment: fixed; 
+      background-color: var(--main-bg-color);
+      background-size: cover;
+      }
+      #black_jazz_logo{
+        width: 20vw;
+        }
+      .face_logo{
+        width: 7vw;
+        }
+        
+      .like{
+        width: 10vw;
+  }
   }
 
-  @media screen and (min-width:578px){
+  @media screen and (min-width:600px){
     body{
         background-image: url(../imges/patifon-1.png.jpg); 
         background-size: cover;
         background-attachment: fixed; 
     } 
+    .face_logo{
+      width: 3vw;
   }
+    .like{
+      width: 3vw;
+    }
+    .face_logo{
+      width: 2vw;
+    }
+    #black_jazz_logo{
+      width: 5vw;
+    }
+    }
+
+  
+
+  

@@ -8,11 +8,10 @@
   margin-top: 13vh;
   
 }
-@media screen and (max-width:600px) {
-    
+@media screen and (max-width:600px) {   
 #black_jazz_logo{
         width: 20vw;
-      }
+}
 .face_logo{
     width: 7vw;
 }
@@ -23,19 +22,16 @@
 
 }
 @media screen and (min-width:600px) {
-    .face_logo{
-        width: 3vw;
-    }
+.face_logo{
+  width: 3vw;
+}
 .like{
-    width: 3vw;
+  width: 3vw;
 }
 .face_logo{
-    width: 2vw;
+  width: 2vw;
 }
 #black_jazz_logo{
-    width: 5vw;
-  }
-/* .container{
-    
-} */
+  width: 5vw;
+}
 }

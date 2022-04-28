@@ -20,11 +20,30 @@ body{
   height: 30vh;
   filter: opacity(70%);
 }
-/* @media screen and (min-width:600px){
-  .main{
-    width:40vw;
-    display: flex;
-    justify-content: center;
+@media screen and (max-width:600px) {
+    
+  #black_jazz_logo{
+          width: 20vw;
+        }
+  .face_logo{
+      width: 7vw;
   }
   
-} */
+  .like{
+      width: 10vw;
+  }
+}
+@media screen and (min-width:600px) {
+  .face_logo{
+      width: 3vw;
+  }
+.like{
+  width: 3vw;
+}
+.face_logo{
+  width: 2vw;
+}
+#black_jazz_logo{
+  width: 5vw;
+}
+}
