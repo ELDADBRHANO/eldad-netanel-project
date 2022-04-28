@@ -12,7 +12,7 @@
     width: 5vw;
   }
 .container{
-  background-image: url(/imges/background_contact.jpg);
+  background-image: url(../imges/background_contact.jpg);
   background-size: cover;
   background-color: aliceblue;
   height: 100vh;
