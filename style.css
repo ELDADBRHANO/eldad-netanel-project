@@ -51,6 +51,9 @@ body{
 #black_jazz_logo{
   width: 5vw;
 }
+.main{
+  width: 40vw;
+}
 .email{
   display: flex;
   height: 4vh;
