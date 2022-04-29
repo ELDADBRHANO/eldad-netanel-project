@@ -20,6 +20,10 @@ body{
   height: 30vh;
   filter: opacity(70%);
 }
+.line{
+  width: 20vw;
+}
+
 @media screen and (max-width:600px) {
     
   #black_jazz_logo{
@@ -32,6 +36,7 @@ body{
   .like{
       width: 10vw;
   }
+  
 }
 @media screen and (min-width:600px) {
   .face_logo{
@@ -45,5 +50,21 @@ body{
 }
 #black_jazz_logo{
   width: 5vw;
+}
+.email{
+  display: flex;
+  height: 4vh;
+  width: 30vw;
+}
+.label{
+  border: 6px;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+
+}
+.email{
+  display: flex;
+  margin-left: 9.5vw;
 }
 }
