@@ -10,8 +10,8 @@ body{
   background-position: center;
 }
 .face_logo{
-      width: 2vw;
-  }
+  width: 2vw;
+}
 #black_jazz_logo{
   width: 5vw;
 }
@@ -69,5 +69,8 @@ body{
 .email{
   display: flex;
   margin-left: 9.5vw;
+}
+.line{
+  width: 7vw;
 }
 }
