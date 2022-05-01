@@ -12,9 +12,7 @@
   height: 100vh;
 }
 .effect-1{
-  border: 0;
   outline: none;
-  border-bottom: 1px solid #ccc;
 }
 .btn1{
   border-radius: 3px;
