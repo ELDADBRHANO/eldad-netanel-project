@@ -41,6 +41,10 @@ height: 60vh;
 .like{
   width: 10vw;
 }
+.text{
+  background-color: #0000007d;
+
+}
 }
        
 
@@ -60,6 +64,10 @@ height: 60vh;
 }
 #black_jazz_logo{
   width: 5vw;
+}
+.text{
+  background-color: #0000007d;
+
 }
 }
        

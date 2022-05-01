@@ -1,6 +1,6 @@
-/* :root {
+ :root {
         --main-bg-color: #2D2424;
-      } */
+      } 
       .face_logo{
           width: 3vw;
         }
@@ -35,6 +35,10 @@
       .like{
         width: 10vw;
   }
+  .text{
+    background-color: #0000007d;
+
+  }
   }
 
   @media screen and (min-width:600px){
@@ -54,6 +58,10 @@
     }
     #black_jazz_logo{
       width: 5vw;
+    }
+    .text{
+      background-color: #0000007d;
+
     }
     }
 
